@@ -10,6 +10,8 @@ namespace MVCApplication1.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Welcome to the cool seats!";
+
             return View();
         }
 
